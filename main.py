@@ -13,7 +13,7 @@ dp: Dispatcher = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def process_start_command(message: Message):
-    await message.reply('Привет')
+    await message.reply('Привет!')
 
 
 @dp.message_handler()
