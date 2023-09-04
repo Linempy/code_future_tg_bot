@@ -4,7 +4,7 @@ from aiogram.types import Message, CallbackQuery, \
 
 from config import Config
 
-
+# fdsfsdfs
 # proxy_url: str = 'http://proxy.server:3128'
 
 bot: Bot = Bot(token=Config.BOT_TOKEN)
